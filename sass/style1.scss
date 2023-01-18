@@ -1,0 +1,86 @@
+$ancho: 1280px;
+$color-letra: #AAAABB;
+$altura: 514px;
+
+h1,
+h2,
+h3,
+p {
+    color: $color-letra;
+}
+
+
+.contenedor {
+    width: $ancho;
+}
+
+
+.contenedor-con-altura {
+    @extend .contenedor;
+    height: $altura;
+}
+
+ul {
+    font-size: 1.2rem;
+    color: red;
+
+    ul {
+        font-size: 0.7rem;
+        color: green;
+
+        ul {
+            font-size: 0.5em;
+            color: blue;
+        }
+    }
+}
+
+a{
+    color:blue;
+    text-decoration: none;
+    font-size: 1.2rem;
+
+    &:hover{
+        color:green;
+        text-decoration: underline;
+    }
+
+    &:focus{
+        color: red;
+        text-decoration: none;
+    }
+    &.enlace-propio{
+        color: red  ;
+    }
+}
+
+.mitad{
+    width: ($ancho/2);
+}
+
+.cuarto{
+    width: ($ancho/4);
+}
+
+.octavo{
+    width: ($ancho/8);
+}
+
+@function partir($tam, $numpartes){
+    @return ($tam/$numpartes);
+}
+
+.decimo{
+    width: partir($ancho, 10);
+}
+
+@mixin border-radius($radius){
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+.box{
+    @include border-radius(20px);
+}

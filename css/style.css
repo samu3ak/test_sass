@@ -1,0 +1,86 @@
+/* line 5, ../../../Desktop/GitHub/test_sass/sass/style.sass */
+h1, h2, h3, p {
+  color: #AAAABB;
+}
+
+/* line 8, ../../../Desktop/GitHub/test_sass/sass/style.sass */
+.contenedor, .contenedor-con-altura {
+  width: 1280px;
+}
+
+/* line 11, ../../../Desktop/GitHub/test_sass/sass/style.sass */
+.contenedor-con-altura {
+  height: 514px;
+}
+
+/* line 15, ../../../Desktop/GitHub/test_sass/sass/style.sass */
+ul {
+  font-size: 1.2rem;
+  color: red;
+}
+
+/* line 18, ../../../Desktop/GitHub/test_sass/sass/style.sass */
+ul ul {
+  font-size: 0.7rem;
+  color: green;
+}
+
+/* line 21, ../../../Desktop/GitHub/test_sass/sass/style.sass */
+ul ul ul {
+  font-size: 0.5em;
+  color: blue;
+}
+
+/* line 25, ../../../Desktop/GitHub/test_sass/sass/style.sass */
+a {
+  color: blue;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+/* line 29, ../../../Desktop/GitHub/test_sass/sass/style.sass */
+a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+/* line 32, ../../../Desktop/GitHub/test_sass/sass/style.sass */
+a:focus {
+  color: red;
+  text-decoration: none;
+}
+
+/* line 35, ../../../Desktop/GitHub/test_sass/sass/style.sass */
+a.enlace-propio {
+  color: red;
+}
+
+/* line 38, ../../../Desktop/GitHub/test_sass/sass/style.sass */
+.mitad {
+  width: 640px;
+}
+
+/* line 41, ../../../Desktop/GitHub/test_sass/sass/style.sass */
+.cuarto {
+  width: 320px;
+}
+
+/* line 44, ../../../Desktop/GitHub/test_sass/sass/style.sass */
+.octavo {
+  width: 160px;
+}
+
+/* line 50, ../../../Desktop/GitHub/test_sass/sass/style.sass */
+.decimo {
+  width: 128px;
+}
+
+/* line 59, ../../../Desktop/GitHub/test_sass/sass/style.sass */
+.box {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
